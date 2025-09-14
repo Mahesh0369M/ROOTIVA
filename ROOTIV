@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rootiva — Wellness, from the ground up</title>
+  <meta name="description" content="Rootiva creates pure, science-backed wellness products: herbal teas, plant-based supplements, and organic oils. Rooted in nature, backed by science." />
+  <meta property="og:title" content="Rootiva — Wellness, from the ground up" />
+  <meta property="og:description" content="Pure, science-backed wellness products. Rooted in nature, backed by science." />
+  <meta property="og:image" content="assets/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="assets/logo.svg" alt="Rootiva leaf and root logo" />
+      <span>Rootiva</span>
+    </a>
+    <nav class="nav">
+      <a href="#products">Products</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#science">Science</a>
+      <a href="#sustainability">Sustainability</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a class="cta" href="#contact">Shop/Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Wellness, from the ground up</h1>
+        <p>Pure, science-backed products rooted in nature — crafted for daily vitality.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#products">Explore products</a>
+          <a class="btn ghost" href="#science">Why Rootiva</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/hero.jpg" alt="Rootiva products arranged in warm natural light" />
+      </div>
+    </section>
+
+    <section id="products" class="products section">
+      <h2>Products</h2>
+      <p class="section-intro">Clean, effective, and transparent — made with ingredients your body recognizes.</p>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="assets/product-tea.jpg" alt="Rootiva Herbal Wellness Tea pouch" />
+          <h3>Herbal Wellness Tea</h3>
+          <p>Daily adaptogenic blend to support calm, focus, and immunity.</p>
+          <ul>
+            <li><strong>Ingredients:</strong> Tulsi, ashwagandha, ginger, licorice</li>
+            <li><strong>Format:</strong> 20 tea bags</li>
+            <li><strong>How to use:</strong> Steep 5–7 minutes, 1–2x daily</li>
+          </ul>
+          <a class="btn secondary" href="#contact">Enquire</a>
+        </article>
+        <article class="product-card">
+          <img src="assets/product-supplement.jpg" alt="Rootiva Daily Wellness supplement bottle" />
+          <h3>Daily Wellness Capsules</h3>
+          <p>Ayurvedic essentials for energy, resilience, and metabolic balance.</p>
+          <ul>
+            <li><strong>Ingredients:</strong> Amla, giloy, shilajit</li>
+            <li><strong>Format:</strong> 60 capsules</li>
+            <li><strong>How to use:</strong> 2 capsules with water, after meals</li>
+          </ul>
+          <a class="btn secondary" href="#contact">Enquire</a>
+        </article>
+        <article class="product-card">
+          <img src="assets/product-oil.jpg" alt="Rootiva organic oil amber bottle with dropper" />
+          <h3>Organic Cold-Pressed Oil</h3>
+          <p>Versatile coconut or flaxseed oil for cooking, skin, and hair.</p>
+          <ul>
+            <li><strong>Source:</strong> Single-origin, cold-pressed</li>
+            <li><strong>Format:</strong> 118 mL</li>
+            <li><strong>How to use:</strong> Daily culinary or topical use</li>
+          </ul>
+          <a class="btn secondary" href="#contact">Enquire</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="benefits" class="benefits section">
+      <h2>Benefits you can feel</h2>
+      <div class="benefit-grid">
+        <div class="benefit">
+          <h4>Clean & transparent</h4>
+          <p>No fillers, no artificial colors, just real ingredients with clear labeling.</p>
+        </div>
+        <div class="benefit">
+          <h4>Science meets tradition</h4>
+          <p>Ayurvedic wisdom aligned with modern quality standards and testing.</p>
+        </div>
+        <div class="benefit">
+          <h4>Daily vitality</h4>
+          <p>Small, consistent habits that compound into lasting wellness.</p>
+        </div>
+        <div class="benefit">
+          <h4>Planet-positive</h4>
+          <p>Sustainably sourced, recyclable packaging, and responsible partners.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="science" class="science section">
+      <h2>Rooted in nature, backed by science</h2>
+      <p>We formulate with clinically-studied botanicals and verify purity through third-party labs. Each batch is tested for identity, potency, and safety.</p>
+      <div class="features">
+        <div class="feature">
+          <h4>Quality sourcing</h4>
+          <p>Traceable farms, rigorous vendor checks, and batch-level audits.</p>
+        </div>
+        <div class="feature">
+          <h4>Lab transparency</h4>
+          <p>QR codes on packs link to Certificates of Analysis and test results.</p>
+        </div>
+        <div class="feature">
+          <h4>Responsible dosages</h4>
+          <p>Effective, sensible dosing that respects both efficacy and safety.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sustainability" class="sustainability section">
+      <h2>Sustainability in action</h2>
+      <ul class="bullet-list">
+        <li><strong>Packaging:</strong> Recyclable kraft, glass, and minimal plastics</li>
+        <li><strong>Transport:</strong> Consolidated shipments and carbon-conscious logistics</li>
+        <li><strong>Community:</strong> Supporting local growers and regenerative practices</li>
+      </ul>
+    </section>
+
+    <section id="reviews" class="reviews section">
+      <h2>What customers say</h2>
+      <div class="review-grid">
+        <blockquote>
+          “Calmer mornings and better focus — the tea is now my daily ritual.”
+          <footer>— Aditi, Pune</footer>
+        </blockquote>
+        <blockquote>
+          “Clean labels, great taste, and I love the transparency with lab results.”
+          <footer>— Karan, Mumbai</footer>
+        </blockquote>
+        <blockquote>
+          “The oil quality is superb; it elevated both my cooking and skincare.”
+          <footer>— Neha, Bengaluru</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="faq" class="faq section">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Are your products vegetarian and gluten-free?</summary>
+        <p>Yes, all current products are vegetarian and gluten-free. Always check labels for specifics.</p>
+      </details>
+      <details>
+        <summary>Do you ship across India?</summary>
+        <p>Yes. Standard delivery is 2–7 days depending on location.</p>
+      </details>
+      <details>
+        <summary>Where are the products made?</summary>
+        <p>Manufactured in India in facilities compliant with applicable quality standards.</p>
+      </details>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2>Get in touch</h2>
+      <p>For orders, wholesale, or collaborations, reach out or join our newsletter.</p>
+      <form id="contactForm" class="contact-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us what you need"></textarea>
+        </div>
+        <button class="btn primary" type="submit">Send</button>
+        <p id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+      <div class="badges">
+        <span>Made in India</span>
+        <span>Clean Label</span>
+        <span>Sustainably Sourced</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Rootiva. All rights reserved.</p>
+    <nav class="footer-nav">
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
