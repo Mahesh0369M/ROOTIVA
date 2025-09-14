@@ -1,0 +1,11 @@
+rootiva/
+│
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
+    ├── logo.svg
+    ├── hero.jpg
+    ├── product-tea.jpg
+    ├── product-supplement.jpg
+    └── product-oil.jpg
